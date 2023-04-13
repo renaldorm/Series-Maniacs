@@ -1,0 +1,19 @@
+
+
+body {
+  text-align: center;
+   font-family: "Lucida Handwriting", Times, serif;
+background-color: #42378f;
+background-image: linear-gradient(315deg, #42378f 10%, #f53844 74%);
+
+}
+
+
+button{
+  background-color: #42378f;
+  background-image: linear-gradient(315deg, #42378f 10%,     #f53844 74%);
+}
+
+a:link{
+  text-decoration: none;
+}
