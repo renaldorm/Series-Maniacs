@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: "Lucida Handwriting", Times, serif;
+  /*background-color : #5d5b96;*/
+   background-color: #9F73AB;
+}
+
+button{
+  background-color :lightgray;
+}
+
+a:link{
+  text-decoration: none;
+}
