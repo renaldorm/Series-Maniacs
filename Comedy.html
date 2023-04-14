@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series Maniac-TV Series Website</title>
+  <link rel="stylesheet" type="text/css" href="/CSSfiles/Comedy.css">
+</head>
+
+
+  <header>
+    <h1>Series Maniac</h1>
+  </header>
+  <nav>
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="/index.html">Home</a>
+        <a href="/HTMLfiles/Comedy.html">Comedy</a>
+        <a href="/HTMLfiles/Drama.html">Drama</a>
+        <a href="/HTMLfiles/Kids.html">Kids</a>
+        <a href="/HTMLfiles/Family.html">Family</a>
+        <a href="/HTMLfiles/Documentaries.html">Documentaries</a>
+      </div>
+    </div>
+      <div class="container mt-4">
+<form id="search-form">
+			<div class="form-group">
+				<label for="search-input"></label>
+				<input type="text" placeholder="Search..." class="form-control" id="search-input" required>
+			<button type="submit" class="btn btn-primary"><img src="https://cdn-icons-png.flaticon.com/512/61/61088.png" alt="Search" width="13" height="13"</button>
+		</div>
+  </div>
+  </form>
+    <a href="/HTMLfiles/registerPage.html" style="color: white"<p>Login/Register</p></a>  
+    </nav>
+  
+  <body>  
+    <div id="search-results" class="mt-4"></div>
+    <script src="/JSfiles/Comedy.js"></script>
+   
+    <h2>Comedy</h2>
+  <div id="shows" class="card-container"></div>
+  <script src="/JSfiles/ComedyApi.js"></script>
+    
+  </body>
+  
+<footer>
+  <p> Copyright © This website uses the TMDB API as its source of data  </p>
+<img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" width="150">
+</footer>
+  
+</html>
